@@ -1,0 +1,11 @@
+# reference repos cloned separately
+FD-loss/
+paper/
+
+__pycache__/
+*.pyc
+runs/
+smoke_runs/
+wandb/
+*.pt
+*.log
