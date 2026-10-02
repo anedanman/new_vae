@@ -9,3 +9,4 @@ smoke_runs/
 wandb/
 *.pt
 *.log
+gputest/

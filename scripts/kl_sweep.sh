@@ -3,7 +3,7 @@
 #   setsid nohup bash scripts/kl_sweep.sh 10 30 100 > /dev/null 2>&1 < /dev/null &
 # Uses an Inception-only reference from 50k train images (good enough to rank pilots).
 set -u
-CODE="$HOME/new_vae_code"
+CODE="$HOME/new_vae"
 PY="$HOME/miniconda3/envs/fdloss/bin/python"
 DATA="$HOME/data/imagenet128_nv"
 REF="$DATA/ref_pilot"

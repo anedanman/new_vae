@@ -3,7 +3,7 @@
 #   S0 baseline | S1 latent-token masking | S2 masking + EMA-teacher alignment
 #   setsid nohup bash scripts/queue_block1.sh > /dev/null 2>&1 < /dev/null &
 set -u
-CODE="$HOME/new_vae_code"
+CODE="$HOME/new_vae"
 PY="$HOME/miniconda3/envs/fdloss/bin/python"
 OUT="$HOME/new_vae/runs"
 LOG="$OUT/queue_block1.log"

@@ -4,7 +4,7 @@
 # Logs: ~/new_vae/runs/<exp_name>/launcher.log (train.log is written by train.py itself).
 set -euo pipefail
 EXP="$1"; shift
-CODE="$HOME/new_vae_code"
+CODE="$HOME/new_vae"
 RUN_DIR="$HOME/new_vae/runs/$EXP"
 PY="${PY:-$HOME/miniconda3/envs/fdloss/bin/python}"
 MAX_RESTARTS="${MAX_RESTARTS:-5}"

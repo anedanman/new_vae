@@ -4,7 +4,7 @@
 #   S0 (fixed beta), R150, R150-anneal, S1 (masking), S2 (masking + EMA-teacher alignment), R50, R500
 #   setsid nohup bash scripts/queue_pilots.sh > /dev/null 2>&1 < /dev/null &
 set -u
-CODE="$HOME/new_vae_code"
+CODE="$HOME/new_vae"
 PY="$HOME/miniconda3/envs/fdloss/bin/python"
 OUT="$HOME/new_vae/runs"
 LOG="$OUT/queue_pilots.log"

@@ -5,7 +5,7 @@
 # Evals also sweep flow steps {0, 1, 4}; 0 = the same checkpoint sampled as a plain HVAE.
 #   setsid nohup bash scripts/queue_hvae.sh > /dev/null 2>&1 < /dev/null &
 set -u
-CODE="$HOME/new_vae_code"
+CODE="$HOME/new_vae"
 PY="$HOME/miniconda3/envs/fdloss/bin/python"
 OUT="$HOME/new_vae/runs"
 LOG="$OUT/queue_hvae.log"
